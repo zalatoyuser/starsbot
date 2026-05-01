@@ -1,0 +1,54 @@
+[2025-11-04 12:02:06] local.ERROR: cURL error 28: Operation timed out after 11002 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.telegram.org/bot*****/getUpdates {"exception":"[object] (GuzzleHttp\\Exception\\ConnectException(code: 0): cURL error 28: Operation timed out after 11002 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.telegram.org/bot*****/getUpdates at C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Client.php:421)
+[stacktrace]
+#0 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Client.php(345): SergiX44\\Nutgram\\Nutgram->redactTokenFromConnectException(Object(GuzzleHttp\\Exception\\ConnectException))
+#1 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Endpoints\\UpdateMethods.php(35): SergiX44\\Nutgram\\Nutgram->requestJson('getUpdates', Array, 'SergiX44\\\\Nutgra...', Array)
+#2 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\RunningMode\\Polling.php(32): SergiX44\\Nutgram\\Nutgram->getUpdates(885020963, 100, 10, Array)
+#3 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Nutgram.php(206): SergiX44\\Nutgram\\RunningMode\\Polling->processUpdates(Object(SergiX44\\Nutgram\\Nutgram))
+#4 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\laravel\\src\\Console\\RunCommand.php(22): SergiX44\\Nutgram\\Nutgram->run()
+#5 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Nutgram\\Laravel\\Console\\RunCommand->handle(Object(SergiX44\\Nutgram\\Nutgram))
+#6 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Command\\Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(1073): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Nutgram\\Laravel\\Console\\RunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\User\\Desktop\\autostars\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#19 {main}
+"} 
+[2025-11-04 12:02:44] local.ERROR: cURL error 28: Operation timed out after 11001 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.telegram.org/bot*****/getUpdates {"exception":"[object] (GuzzleHttp\\Exception\\ConnectException(code: 0): cURL error 28: Operation timed out after 11001 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.telegram.org/bot*****/getUpdates at C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Client.php:421)
+[stacktrace]
+#0 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Client.php(345): SergiX44\\Nutgram\\Nutgram->redactTokenFromConnectException(Object(GuzzleHttp\\Exception\\ConnectException))
+#1 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Telegram\\Endpoints\\UpdateMethods.php(35): SergiX44\\Nutgram\\Nutgram->requestJson('getUpdates', Array, 'SergiX44\\\\Nutgra...', Array)
+#2 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\RunningMode\\Polling.php(32): SergiX44\\Nutgram\\Nutgram->getUpdates(1, 100, 10, Array)
+#3 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\nutgram\\src\\Nutgram.php(206): SergiX44\\Nutgram\\RunningMode\\Polling->processUpdates(Object(SergiX44\\Nutgram\\Nutgram))
+#4 C:\\Users\\User\\Desktop\\autostars\\vendor\\nutgram\\laravel\\src\\Console\\RunCommand.php(22): SergiX44\\Nutgram\\Nutgram->run()
+#5 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Nutgram\\Laravel\\Console\\RunCommand->handle(Object(SergiX44\\Nutgram\\Nutgram))
+#6 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Command\\Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(1073): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Nutgram\\Laravel\\Console\\RunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\User\\Desktop\\autostars\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\User\\Desktop\\autostars\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\User\\Desktop\\autostars\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#19 {main}
+"} 
+[2025-11-04 12:08:19] local.ERROR: Cannot use positional argument after named argument {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use positional argument after named argument at C:\\Users\\User\\Desktop\\autostars\\app\\Telegram\\Commands\\StartCommand.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-04 12:08:19] local.ERROR: Cannot use positional argument after named argument {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use positional argument after named argument at C:\\Users\\User\\Desktop\\autostars\\app\\Telegram\\Commands\\StartCommand.php:45)
+[stacktrace]
+#0 {main}
+"} 
