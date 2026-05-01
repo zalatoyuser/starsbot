@@ -2,7 +2,7 @@
 
 return [
     // The Telegram BOT api token
-    'token' => env('TELEGRAM_TOKEN'),
+    'token' => env('7870256702:AAFMhAN691V8_rl2I3WaZHY06h1LXgilsRU'),
 
     // if the webhook mode must validate the incoming IP range is from a telegram server
     'safe_mode' => env('APP_ENV', 'local') === 'production',
